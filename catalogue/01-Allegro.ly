@@ -91,7 +91,9 @@ right = \relative c'' {
   <b d g>4 r8 \bar ":|.|:" g''16.\( d32 |
   bf8\) d16.\( bf32 g8\) bf16.\( g32 |
   ef8-.\) ef'-. r ef16. c32 | 
-  a8 f r 
+  a8 f' r f16. d32 |
+  b8[ af' g f] |
+  ef 
 }
 
 left = \relative c' {
@@ -173,7 +175,8 @@ left = \relative c' {
   g,4 r8 \bar ":|.|:" r |
   <g' d'>8 r <bf d> r|
   <c, c'>8 c'16. d32 ef8 c  |
-  f, \clef treble <f' a>16. <g bf>32
+  f, \clef treble <f' a>16. <g bf>32 <a c>8  \clef bass <af,, af'> |
+  <g g'>
 }
 
 \score {
